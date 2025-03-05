@@ -1,5 +1,5 @@
 const express = require('express');
-const Cliente = require('../models/cliente');
+const Cliente = require('./cliente');
 const router = express.Router();
 
 // Verificar sesión antes de acceder
